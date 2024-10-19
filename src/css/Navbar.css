@@ -1,0 +1,36 @@
+.nav-main{
+    background-color: #27272A;
+    border-top: 5px solid #207daf;
+}
+.nav-main .nav-leader{
+    color: white;
+    font-size: 20px;
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    width: 90%;
+    margin-inline: auto;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.nav-main .nav-item{
+    width: 100%;
+    white-space: nowrap;
+    text-align: center;
+    padding-block: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.nav-main .nav-item:hover{
+    background-color: #207daf;
+}
+
+.nav-main .nav-item .arrow-icon{
+    margin-top: 1px;
+}

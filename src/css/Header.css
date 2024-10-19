@@ -1,0 +1,49 @@
+.main-header{
+    display: flex;
+    flex-direction: row;
+    width: 97%;
+    justify-content: space-between;
+    margin: auto;
+    padding-block: 25px;
+}
+
+
+.main-header .main-logo{
+    display: flex;
+}
+
+.main-header .main-logo img{
+    width: 50%;
+}
+
+.main-header .contact-info{
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+}
+
+.main-header .contact-info h3{
+    margin-block: 4px;
+}
+
+.main-header .contact-info .sec-number{
+    margin-left: 72px;
+}
+
+.main-header .contact-info .color-red{
+    color: #ff0000;
+}
+
+.main-header .contact-info .color-voilet{
+    color: #800080;
+}
+
+.main-header .contact-info .color-green{
+    color: #008000;
+}
+
+.main-header .contact-info .color-blue{
+    color: #207daf;
+}
