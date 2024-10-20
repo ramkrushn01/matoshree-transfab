@@ -1,8 +1,8 @@
-.nav-main{
-    background-color: #27272A;
+.nav-main {
+    background-color: #27272a;
     border-top: 5px solid #207daf;
 }
-.nav-main .nav-leader{
+.nav-main .nav-leader {
     color: white;
     font-size: 20px;
     list-style: none;
@@ -18,19 +18,46 @@
     line-height: 28px;
 }
 
-.nav-main .nav-item{
+.nav-main .nav-item {
     width: 100%;
     white-space: nowrap;
     text-align: center;
     padding-block: 10px;
     transition: 0.5s;
     cursor: pointer;
+    font-size: 16px;
 }
 
-.nav-main .nav-item:hover{
+.nav-main .nav-item:hover {
     background-color: #207daf;
 }
 
-.nav-main .nav-item .arrow-icon{
+.nav-main .nav-item .arrow-icon {
     margin-top: 1px;
+}
+
+.nav-main .nav-sub-leader {
+    list-style: none;
+    text-align: left;
+    background-color: #27272a;
+    position: absolute;
+    z-index: 10;
+    padding-block: 12px;
+    display: none;
+    overflow: hidden;
+}
+
+.nav-main .nav-leader .nav-item:hover  .nav-sub-leader{
+    display: block !important;
+}
+
+.nav-main .nav-sub-leader .nav-sub-leader-item:hover{
+    background-color: #207daf;
+}
+
+.nav-main .nav-sub-leader .nav-sub-leader-item {
+    padding-block: 8px;
+    font-size: 14px;
+    transition: 0.3s;
+    padding-inline: 16px;
 }

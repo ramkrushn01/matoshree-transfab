@@ -14,25 +14,27 @@
 
 .main-home .upper-photo-sec .signal-image{
     display: grid;
-      grid-template-columns: 1fr 1fr; /* 2 equal columns */
-      /* grid-template-rows: 100px 100px;  */
+      grid-template-columns: 1fr 1fr;
       gap: 10px;
 }
 
 
 .main-home .lower-content-sec{
-    width: 70%;
+    display: flex;
+    width: 100%;
     line-height: 29px;
     font-size: 60px;
     color: rgb(63, 63, 70);
     margin-top: 40px;
     font-weight: 600;
+    gap: 20px;
 }
+
 
 .main-home .lower-content-sec .com-heading{
     font-size: 40px;
     text-align:  center;
-    margin-block: 30px;
+    margin-bottom: 30px;
 }
 
 .main-home .lower-content-sec .color-blue{
@@ -61,4 +63,40 @@
 .main-home .grid-image-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+.main-home .info-images{
+    width: 30%;
+}
+
+.main-home .info-images .side-sec{
+    margin-bottom: 20px;
+}
+
+.main-home .info-images .side-sec-head{
+    font-size: 16px;
+    font-weight: 600;
+    border-bottom: 2px solid #207daf;
+    box-sizing: border-box;
+}
+
+.main-home .info-images .side-sec-head .heading{
+    background-color: #207daf;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 5px 5px 0 0;
+}
+
+.main-home .info-images .head-info{
+    font-size: 14px;
+    line-height: 25px;
+    margin-block: 12px;
+}
+
+.main-home .info-images .sec-info-img{
+    width: 300px;
+    height: 167px;
+    margin-block: 12px;
+    border-radius: 4px;
+    border: 1px solid black;
 }
