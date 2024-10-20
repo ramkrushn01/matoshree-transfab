@@ -1,0 +1,41 @@
+.main-home-image {
+    width: 258px;
+    height: 193px;
+    position: relative;
+    border: 1.2px solid black;
+    overflow-y: hidden;
+    border-radius: 3px;
+    /* box-shadow: 0 4px 8px black; */
+}
+
+.main-home-image .main-image {
+    object-fit: contain;
+    width: 100%;
+}
+
+.main-home-image .image .content {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    padding-bottom: 15px;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+}
+
+.main-home-image .image .image-name {
+    font-weight: 600;
+    padding-left: 15px;
+    font-size: 16px;
+    line-height: 21px;
+    padding-top: 10px;
+}
+
+.main-home-image .image .capture-date {
+    font-size: 12px;
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+.main-home-image .image .date {
+    margin-left: 5px;
+}

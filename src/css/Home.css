@@ -1,3 +1,64 @@
 .main-home{
-    height: 60vh;
+    margin-inline: 30px;
+    margin-block: 50px;
+}
+
+.main-home .upper-photo-sec{
+    display: flex;
+    margin-block: 40px;
+}
+
+.main-home .upper-photo-sec > .main-image{
+    margin-right: 20px;
+}
+
+.main-home .upper-photo-sec .signal-image{
+    display: grid;
+      grid-template-columns: 1fr 1fr; /* 2 equal columns */
+      /* grid-template-rows: 100px 100px;  */
+      gap: 10px;
+}
+
+
+.main-home .lower-content-sec{
+    width: 70%;
+    line-height: 29px;
+    font-size: 60px;
+    color: rgb(63, 63, 70);
+    margin-top: 40px;
+    font-weight: 600;
+}
+
+.main-home .lower-content-sec .com-heading{
+    font-size: 40px;
+    text-align:  center;
+    margin-block: 30px;
+}
+
+.main-home .lower-content-sec .color-blue{
+    color: rgb(0, 0, 128);
+}
+
+.main-home .lower-content-sec .color-red{
+    color: rgb(255,0,0);
+}
+
+.main-home .lower-content-sec .color-brown{
+    color: rgb(153, 0, 0);
+}
+
+.main-home .lower-content-sec .info-content{
+    font-size: 16px;
+}
+
+.main-home .lower-sec-head{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    margin-block: 25px;
+} 
+
+.main-home .grid-image-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
