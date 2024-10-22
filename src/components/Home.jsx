@@ -63,7 +63,7 @@ export default function Home() {
                         quality assurance procedure which meets the all national
                         standards.
                     </div>
-                    <img src="Images/glorious-30-years-1.png" />
+                    {/* <img src="Images/glorious-30-years-1.png" /> */}
                     <h1 className="lower-sec-head">
                         Our Transformer Manufacturing Range
                     </h1>
