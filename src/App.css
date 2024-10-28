@@ -24,3 +24,23 @@ a {
     text-decoration: none;
     cursor: pointer;
 }
+
+/* common css */
+.color-blue{
+  color: #000080;
+}
+
+.color-red{
+  color: #f00;
+}
+
+.color-brown{
+  color: #900;
+}
+
+.green-tick::before{
+  content: "√";
+  color: green;
+  padding-right: 4px;
+  font-weight: 600;
+}

@@ -1,0 +1,90 @@
+.company-profile-main{
+    margin-block: 40px;
+    display: flex;
+    margin-inline: 30px;
+    gap: 20px;
+}
+
+.company-profile-main .main-profile{
+    width: 70%;
+    padding-inline: 22px;
+    padding-bottom: 22px;
+}
+
+.company-profile-main .main-profile{
+    border: 1px solid #eaeaea;
+    border-radius: 4px;
+}
+
+.company-profile-main .main-profile .poster-img{
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.company-profile-main .main-profile .poster-img img{
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 630px;
+    height: 350px;
+}
+
+.company-profile-main .main-profile .profile-head h2{
+    margin-bottom: 8px;   
+}
+
+.company-profile-main .main-profile .profile-head .date{
+    color: #71717a;
+}
+
+.company-profile-main .main-profile .profile-info{
+    margin-top: 30px;
+    
+}
+.company-profile-main .main-profile .profile-info .profile-info-head{
+    color: rgb(0, 0, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    margin-block:24px;
+}
+
+.company-profile-main .profile-info .profile-info-content{
+    color: #3f3f46;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.company-profile-main .quality-policy{
+
+}
+
+.profile-info .head{
+    color: rgb(0, 0, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    margin-bottom: 8px;
+}
+
+.company-profile-main .vision-mission{
+
+}
+
+.company-profile-main .vision-mission .vm-txt{
+    margin-block: 20px;
+}
+
+.company-profile-main .vision-mission ul{
+    list-style-position: outside;
+    padding: 0 0 0 30px;
+    line-height: 29px;
+    color: #3f3f46;
+}
+
+.company-profile-main .why-us ul{
+    list-style-type: none;
+    line-height: 26px;
+}
+
+

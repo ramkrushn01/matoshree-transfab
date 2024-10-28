@@ -7,9 +7,9 @@ export default function Navbar() {
     <div className="nav-main">
       <ul className="nav-leader">
         <li className="nav-item"><Link to="/">Home</Link></li>
-        <li className="nav-item">About Us <IoIosArrowDown /> 
+        <li className="nav-item">About Us<IoIosArrowDown /> 
         <ul className="nav-sub-leader">
-          <li className="nav-sub-leader-item">Company Profile</li>
+          <li className="nav-sub-leader-item"><Link to="/company-profile/">Company Profile</Link></li>
           <li className="nav-sub-leader-item">Vision & Mission</li>
           <li className="nav-sub-leader-item">Quality Policy</li>
           <li className="nav-sub-leader-item">Our Team</li>
