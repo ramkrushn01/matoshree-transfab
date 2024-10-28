@@ -18,12 +18,12 @@ export default function Sidebar() {
                             since <strong>30+ Years. </strong>
                         </div>
                         <img
-                            src="Images/Trans-side-view.jpeg"
+                            src="/Images/Trans-side-view.jpeg"
                             alt=""
                             className="sec-info-img"
                         />
                         <img
-                            src="Images/Trans-coil-bundle.jpeg"
+                            src="/Images/Trans-coil-bundle.jpeg"
                             alt=""
                             className="sec-info-img"
                         />
@@ -34,12 +34,12 @@ export default function Sidebar() {
                         </h3>
 
                         <img
-                            src="Images/repair1.jpg"
+                            src="/Images/repair1.jpg"
                             alt=""
                             className="sec-info-img"
                         />
                         <img
-                            src="Images/repair1.jpg"
+                            src="/Images/repair1.jpg"
                             alt=""
                             className="sec-info-img"
                         />
@@ -50,12 +50,12 @@ export default function Sidebar() {
                         </h3>
 
                         {/* <img
-                            src="Images/repair1.jpg"
+                            src="/Images/repair1.jpg"
                             alt=""
                             className="sec-info-img"
                         /> */}
                         <img
-                            src="Images/testing-facility.jpg"
+                            src="/Images/testing-facility.jpg"
                             alt=""
                             className="sec-info-img"
                         />
