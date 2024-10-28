@@ -1,11 +1,12 @@
 import React from 'react';
 import { IoIosArrowDown } from "react-icons/io";
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
   return (
     <div className="nav-main">
       <ul className="nav-leader">
-        <li className="nav-item">Home</li>
+        <li className="nav-item"><Link to="/">Home</Link></li>
         <li className="nav-item">About Us <IoIosArrowDown /> 
         <ul className="nav-sub-leader">
           <li className="nav-sub-leader-item">Company Profile</li>
