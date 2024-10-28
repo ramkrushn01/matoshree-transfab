@@ -6,10 +6,10 @@ export default function Navbar() {
   return (
     <div className="nav-main">
       <ul className="nav-leader">
-        <li className="nav-item"><Link to="/">Home</Link></li>
+        <Link to="/" className="nav-item"><li>Home</li></Link>
         <li className="nav-item">About Us<IoIosArrowDown /> 
         <ul className="nav-sub-leader">
-          <li className="nav-sub-leader-item"><Link to="/company-profile/">Company Profile</Link></li>
+        <Link to="/company-profile/"><li className="nav-sub-leader-item">Company Profile</li></Link>
           <li className="nav-sub-leader-item">Vision & Mission</li>
           <li className="nav-sub-leader-item">Quality Policy</li>
           <li className="nav-sub-leader-item">Our Team</li>
