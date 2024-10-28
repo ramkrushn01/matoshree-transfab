@@ -1,7 +1,6 @@
 .main-footer{
     background-color:#3f3f46;
     color: #e4e4e7;
-    padding-block-start: 30px;
 }
 
 .main-footer .footer-upper{
@@ -10,12 +9,14 @@
     padding-inline: 30px;
     justify-content: space-between;
     margin-bottom: 90px;
+    flex-wrap: wrap;
 }
 
 .main-footer .footer-upper .footer-upper-sections{
     display: flex;
     flex-direction: column;
     flex-basis: 20%;
+    padding-block-start: 30px;
 }
 
 .main-footer .footer-upper .footer-upper-sec-head{
