@@ -65,35 +65,35 @@
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.main-home .info-images{
+.info-images{
     width: 30%;
 }
 
-.main-home .info-images .side-sec{
+.info-images .side-sec{
     margin-bottom: 20px;
 }
 
-.main-home .info-images .side-sec-head{
+.info-images .side-sec-head{
     font-size: 16px;
     font-weight: 600;
     border-bottom: 2px solid #207daf;
     box-sizing: border-box;
 }
 
-.main-home .info-images .side-sec-head .heading{
+.info-images .side-sec-head .heading{
     background-color: #207daf;
     color: white;
     padding: 6px 14px;
     border-radius: 5px 5px 0 0;
 }
 
-.main-home .info-images .head-info{
+.info-images .head-info{
     font-size: 14px;
     line-height: 25px;
     margin-block: 12px;
 }
 
-.main-home .info-images .sec-info-img{
+.info-images .sec-info-img{
     width: 300px;
     height: 167px;
     margin-block: 12px;
