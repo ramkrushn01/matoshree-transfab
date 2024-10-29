@@ -10,9 +10,9 @@ export default function Navbar() {
         <li className="nav-item">About Us<IoIosArrowDown /> 
         <ul className="nav-sub-leader">
         <Link to="/company-profile/"><li className="nav-sub-leader-item">Company Profile</li></Link>
-          <li className="nav-sub-leader-item">Vision & Mission</li>
-          <li className="nav-sub-leader-item">Quality Policy</li>
-          <li className="nav-sub-leader-item">Our Team</li>
+        <Link to="/company-profile/#vision-mission"><li className="nav-sub-leader-item">Vision & Mission</li></Link>
+        <Link to="/company-profile/#quality-policy"><li className="nav-sub-leader-item">Quality Policy</li></Link>
+        <Link to="/our-team/"><li className="nav-sub-leader-item">Our Team</li></Link>
           <li className="nav-sub-leader-item">Infrastructure & Facilities</li>
         </ul>
         </li>

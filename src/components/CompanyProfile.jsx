@@ -57,7 +57,7 @@ export default function CompanyProfile() {
                       Standards.
                   </div>
               </div>
-              <div className="vision-mission profile-info">
+              <div className="vision-mission profile-info" id="vision-mission">
                   <div className="head">Vision & Mission</div>
                   <div className="vision">
                       <div className="vm-txt">Vision</div>
