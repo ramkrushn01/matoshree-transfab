@@ -5,9 +5,9 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
-import Sidebar from "./components/Sidebar";
 import CompanyProfile from "./components/CompanyProfile";
 import OurTeam from "./components/OurTeam";
+import InfrastructureFacility from "./components/InfrastructureFacility";
 
 function App() {
     return (
@@ -19,6 +19,7 @@ function App() {
                     <Route path="/" element={<Home />} />
                     <Route path="/company-profile/" element={<CompanyProfile/>}/>
                     <Route path="/our-team/" element={<OurTeam/>} />
+                    <Route path="/infrastructure-facilities" element={ <InfrastructureFacility/> }/>
                 </Routes>
                 {/* <Sidebar /> */}
                 <Footer />

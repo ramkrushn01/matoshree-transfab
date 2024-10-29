@@ -13,7 +13,7 @@ export default function Navbar() {
         <Link to="/company-profile/#vision-mission"><li className="nav-sub-leader-item">Vision & Mission</li></Link>
         <Link to="/company-profile/#quality-policy"><li className="nav-sub-leader-item">Quality Policy</li></Link>
         <Link to="/our-team/"><li className="nav-sub-leader-item">Our Team</li></Link>
-          <li className="nav-sub-leader-item">Infrastructure & Facilities</li>
+        <Link to="/infrastructure-facilities/"><li className="nav-sub-leader-item">Infrastructure & Facilities</li></Link>
         </ul>
         </li>
         <li className="nav-item">Products </li>
