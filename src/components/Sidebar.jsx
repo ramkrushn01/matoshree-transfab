@@ -39,7 +39,7 @@ export default function Sidebar() {
                             className="sec-info-img"
                         />
                         <img
-                            src="/Images/repair1.jpg"
+                            src="/Images/repair-2.jpg"
                             alt=""
                             className="sec-info-img"
                         />

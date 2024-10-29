@@ -8,7 +8,7 @@ export default function Footer() {
                 <div className="footer-upper-sections">
                     <h2 className="footer-upper-sec-head">About US</h2>
                     <div className="footer-upper-content">
-                    Established in 1984,  is a leading Manufacturer of Power & Distribution Transformers. The company is registered with SSI and has the entire infrastructure to manufacture Transformers upto 5MVA & voltage class of 11KV, 22KV, 33KV. The manufacturing is in accordance with the strict quality assurance procedure which meets the all national standards.
+                    Established in 2022,  is a leading Manufacturer of Power & Distribution Transformers. The company is registered with SSI and has the entire infrastructure to manufacture Transformers upto 5MVA & voltage class of 11KV, 22KV, 33KV. The manufacturing is in accordance with the strict quality assurance procedure which meets the all national standards.
                     </div>
                 </div>
                 <div className="footer-upper-sections">
@@ -45,9 +45,8 @@ export default function Footer() {
                 <div className="footer-upper-sections">
                     <h2 className="footer-upper-sec-head">Contact Us</h2>
                     <div className="footer-upper-content">
-                        RAKESH TRANSFORMER INDUSTRIES PVT. LTD. W-240 ” S ”
-                        Block, M. I. D. C., Bhosari, Pune – 411 026,
-                        Maharashtra, India
+                        MATOSHREE TRANSFAB INDUSTRIES PVT. LTD. MIDC PLOT NO A-126, LONI DEVAKAR TAL-INDAPUR, DIST-PUNE 413132,
+                        MAHARASHTRA, INDIA
                     </div>
                 </div>
             </div>
