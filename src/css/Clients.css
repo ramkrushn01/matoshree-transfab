@@ -10,3 +10,19 @@
     border: 0.8px solid grey;
     margin-block: 10px;
 }
+
+@media only screen and (max-width: 1366px) {
+    .client-list-main{
+        
+    }
+
+    .client-list-main *{
+
+    }
+}
+
+@media screen and (max-width:720px) {
+    .client-list-main{
+        display: block;
+    }
+}

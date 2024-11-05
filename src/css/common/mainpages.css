@@ -75,3 +75,17 @@
 .h4-head{
     margin-block: 10px;
 }
+
+@media only screen and (max-width: 1366px) {
+
+    .main .sub-main{
+        width: 95%;
+    }
+
+    .main .sub-main .sub-main-img img{
+        width: 100%;
+    }
+    .main{
+        flex-direction: column;
+    }
+}
