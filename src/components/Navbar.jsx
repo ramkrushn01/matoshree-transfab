@@ -16,14 +16,19 @@ export default function Navbar() {
         <Link to="/infrastructure-facilities/"><li className="nav-sub-leader-item">Infrastructure & Facilities</li></Link>
         </ul>
         </li>
-        <li className="nav-item">Products </li>
-        <li className="nav-item">Services <IoIosArrowDown />
+        <li className="nav-item">Products<IoIosArrowDown />
         <ul className="nav-sub-leader">
-          <li className="nav-sub-leader-item">Repairing</li>
-          <li className="nav-sub-leader-item">Refurbishment</li>
+          <Link to="/products/"><li className="nav-sub-leader-item">Power Transformer</li></Link>
+          <Link to="/products/"><li className="nav-sub-leader-item">Distribution Transformer</li></Link>
         </ul>
         </li>
-        <li className="nav-item">Clients</li>
+        <li className="nav-item"> Services <IoIosArrowDown />
+        <ul className="nav-sub-leader">
+        <Link to="/services/"><li className="nav-sub-leader-item">Repairing & Refurbishment</li></Link>
+          {/* <li className="nav-sub-leader-item">Refurbishment</li> */}
+        </ul>
+        </li>
+        <li className="nav-item"><Link to="/clients/">Clients</Link></li>
         <li className="nav-item">Gallery <IoIosArrowDown /> 
         <ul className="nav-sub-leader">
           <li className="nav-sub-leader-item">Photo's of Product Internal & Outer</li>
@@ -33,7 +38,7 @@ export default function Navbar() {
           <li className="nav-sub-leader-item">Photo's of Office</li>
         </ul>
         </li>
-        <li className="nav-item">Contact Us & Enquiry 
+        <li className="nav-item"><Link to="/contact-us">Contact Us & Enquiry</Link> 
           {/* <IoIosArrowDown />  */}
         </li>
         <li className="nav-item">Why Us?</li>

@@ -8,6 +8,10 @@ import Home from "./components/Home";
 import CompanyProfile from "./components/CompanyProfile";
 import OurTeam from "./components/OurTeam";
 import InfrastructureFacility from "./components/InfrastructureFacility";
+import Products from "./components/Products";
+import Services from "./components/Services";
+import Clients from "./components/Clients";
+import ContactUs from "./components/ContactUs";
 
 function App() {
     return (
@@ -20,6 +24,10 @@ function App() {
                     <Route path="/company-profile/" element={<CompanyProfile/>}/>
                     <Route path="/our-team/" element={<OurTeam/>} />
                     <Route path="/infrastructure-facilities" element={ <InfrastructureFacility/> }/>
+                    <Route path="/products" element={ <Products /> } />
+                    <Route path="/services" element={ <Services/> } />
+                    <Route path="/clients" element={ <Clients /> } />
+                    <Route path="/contact-us" element={ <ContactUs /> }/>
                 </Routes>
                 {/* <Sidebar /> */}
                 <Footer />

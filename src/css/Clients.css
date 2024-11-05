@@ -1,0 +1,12 @@
+.client-list-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.client-list-main *{
+    width: 170px;
+    height: 112px;
+    overflow: hidden;
+    border: 0.8px solid grey;
+    margin-block: 10px;
+}

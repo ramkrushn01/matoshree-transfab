@@ -45,7 +45,7 @@ export default function Footer() {
                 <div className="footer-upper-sections">
                     <h2 className="footer-upper-sec-head">Contact Us</h2>
                     <div className="footer-upper-content">
-                        MATOSHREE TRANSFAB INDUSTRIES PVT. LTD. MIDC PLOT NO A-126, LONI DEVAKAR TAL-INDAPUR, DIST-PUNE 413132,
+                        MATOSHREE TRANSFAB MIDC PLOT NO A-126, LONI DEVAKAR TAL-INDAPUR, DIST-PUNE 413132,
                         MAHARASHTRA, INDIA
                     </div>
                 </div>

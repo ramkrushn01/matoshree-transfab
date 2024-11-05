@@ -9,9 +9,9 @@ export default function Header() {
         </div>
       <div className="contact-info">
         <h3>Contact Us:</h3>
-        <h3 className='color-voilet'>Mobile: <span className="color-red">+91 8335949494 </span></h3>
-        <h3 className='sec-number color-red'> +91 8600115570</h3> 
-        <h3 className="color-green">Email: <span className="color-blue">matoshree.transfab@gmail.com</span></h3>
+        <h3 className='color-voilet'>Mobile: <span className="color-red"><a href="tel:+918335949494">+91 8335949494</a></span></h3>
+        <h3 className='sec-number color-red'> <a href="tel:+918600115570">+91 8600115570</a></h3> 
+        <h3 className="color-green">Email: <span className="color-blue"><a href="mailto:matoshree.transfab@gmail.com">matoshree.transfab@gmail.com</a></span></h3>
       </div>
     </div>
   )

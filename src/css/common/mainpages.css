@@ -62,7 +62,7 @@
     font-size: 36px;
 }
 
-.main .sub-info .sub-info-content .fac-include ul, .main .sub-info .sub-info-content .test-include ul{
+.main .sub-info .sub-info-content .fac-include ul, .main .sub-info .sub-info-content .test-include ul,ol{
     list-style-position: inside;
     line-height: 30px;
     padding-left: 20px;
@@ -70,4 +70,8 @@
 
 .main .sub-info .sub-info-content .include-head{
     font-size: 16px;
+}
+
+.h4-head{
+    margin-block: 10px;
 }
