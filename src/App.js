@@ -12,6 +12,7 @@ import Products from "./components/Products";
 import Services from "./components/Services";
 import Clients from "./components/Clients";
 import ContactUs from "./components/ContactUs";
+import WhyUs from "./components/WhyUs";
 
 function App() {
     return (
@@ -28,6 +29,7 @@ function App() {
                     <Route path="/services" element={ <Services/> } />
                     <Route path="/clients" element={ <Clients /> } />
                     <Route path="/contact-us" element={ <ContactUs /> }/>
+                    <Route path="/why-us/" element={<WhyUs/>}/>
                 </Routes>
                 {/* <Sidebar /> */}
                 <Footer />

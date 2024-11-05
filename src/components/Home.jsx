@@ -11,9 +11,9 @@ export default function Home() {
                     <HomeImages
                         ImagePath={"Images/Full-Name.jpeg"}
                         ImageName={
-                            "Matoshree Transfab Line Transformer Pvt Ltd"
+                            "Matoshree Transfab"
                         }
-                        CaptureDate={"March 22, 2021"}
+                        CaptureDate={"March 22, 2022"}
                         ImageWidth={"600px"}
                         ImageHeight={"400px"}
                     />
@@ -21,22 +21,22 @@ export default function Home() {
                 <div className="signal-image">
                     <HomeImages
                         ImagePath={"Images/Line-Trans.jpeg"}
-                        ImageName={"Matoshree Transfab and company pvt ltd"}
+                        ImageName={"Matoshree Transfab and company  "}
                         CaptureDate={"August 21, 2022"}
                     />
                     <HomeImages
                         ImagePath={"Images/Trans-Coils.jpeg"}
-                        ImageName={"Matoshree Transfab and company pvt ltd"}
+                        ImageName={"Matoshree Transfab and company  "}
                         CaptureDate={"August 21, 2022"}
                     />
                     <HomeImages
                         ImagePath={"Images/Brown-Trans.jpeg"}
-                        ImageName={"Matoshree Transfab and company pvt ltd"}
+                        ImageName={"Matoshree Transfab and company  "}
                         CaptureDate={"August 21, 2022"}
                     />
                     <HomeImages
                         ImagePath={"Images/Trans-openwell.jpeg"}
-                        ImageName={"Matoshree Transfab and company pvt ltd"}
+                        ImageName={"Matoshree Transfab and company  "}
                         CaptureDate={"August 21, 2022"}
                     />
                 </div>

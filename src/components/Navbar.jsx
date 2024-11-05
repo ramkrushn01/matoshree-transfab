@@ -41,7 +41,7 @@ export default function Navbar() {
         <li className="nav-item"><Link to="/contact-us">Contact Us & Enquiry</Link> 
           {/* <IoIosArrowDown />  */}
         </li>
-        <li className="nav-item">Why Us?</li>
+        <li className="nav-item"><Link to="/why-us/">Why Us?</Link></li>
       </ul>
     </div>
   )
