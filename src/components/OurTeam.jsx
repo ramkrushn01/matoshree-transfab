@@ -13,13 +13,13 @@ export default function OurTeam() {
                   </span>
                   <div className="team-content">
                     <p>The  activities of <b>Group</b> are presently managed by :</p><br />
-                    <p><span className="color-blue">Mr. Santosh Sul </span>(Founder & CEO)</p>
+                    <p><span className="color-blue">The Family of Matoshree Transfab </span>(Founder & CEO)</p>
                     <div className="img-info-about-ceo">
                         <div className="ceo-img">
-                            <img src="/0matoshree-transfab-logo.png" alt="" />
+                            <img src="/matoshree-transfab-logo.png" alt="" />
                         </div>
                         <div className="ceo-info">
-                            <p><b>Mr. Santosh Sul</b> has started business in the year 2022, he is first generation entrepreneur.</p><br />
+                            <p><b>Our Team</b> has started business in the year 2022, he is first generation entrepreneur.</p><br />
                             <p>Started business after passing out immediately, has started with a small Industrial shop and over the team.</p><br />
                             <p>He is the vision to Increased business in two fold.</p>
                         </div>

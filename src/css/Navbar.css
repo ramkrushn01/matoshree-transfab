@@ -1,7 +1,9 @@
 .nav-main {
     background-color: #27272a;
     border-top: 5px solid #207daf;
+    user-select: none;
 }
+
 .nav-main .nav-leader {
     color: white;
     font-size: 20px;

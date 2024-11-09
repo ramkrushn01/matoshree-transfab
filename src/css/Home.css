@@ -78,7 +78,7 @@
     font-weight: 600;
     border-bottom: 2px solid #207daf;
     box-sizing: border-box;
-    height: 32px;
+    height: 28px;
     white-space: nowrap;
 }
 
@@ -133,8 +133,11 @@
         line-height:40px;
         font-size: 30px;
     }
-
+    
     .info-images {
         width: 70%;
+    }
+    .main-home .info-images .side-sec-head{
+        height: 32px;
     }
 }

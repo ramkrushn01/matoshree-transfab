@@ -1,11 +1,11 @@
-.main-our-team{
+.main-our-team {
     display: flex;
     margin-inline: 20px;
     margin-top: 40px;
     gap: 20px;
 }
 
-.main-our-team .our-team{
+.main-our-team .our-team {
     width: 70%;
     border: 1px solid #eaeaea;
     border-radius: 4px;
@@ -15,7 +15,7 @@
     padding-bottom: 50px;
 }
 
-.main-our-team .our-team .team-head{
+.main-our-team .our-team .team-head {
     color: #27272a;
     font-size: 32px;
     line-height: 42px;
@@ -23,30 +23,58 @@
     margin-bottom: 8px;
 }
 
-.main-our-team .our-team .date{
-        color: #71717a;
-        font-size: 16px;
+.main-our-team .our-team .date {
+    color: #71717a;
+    font-size: 16px;
 }
 
-.main-our-team .our-team .team-content{
+.main-our-team .our-team .team-content {
     margin-top: 30px;
     font-size: 16px;
     line-height: 25px;
     color: #3f3f46;
 }
 
-.main-our-team .our-team .img-info-about-ceo{
+.main-our-team .our-team .img-info-about-ceo {
     margin-top: 18px;
     display: flex;
 }
 
-.main-our-team .our-team .img-info-about-ceo .ceo-img img{
+.main-our-team .our-team .img-info-about-ceo .ceo-img img {
     width: 226px;
     height: 179px;
     border: 1px solid black;
     border-radius: 3px;
 }
 
-.main-our-team .our-team .img-info-about-ceo .ceo-info{
+.main-our-team .our-team .img-info-about-ceo .ceo-info {
     margin-left: 22px;
+}
+
+@media only screen and (max-width: 1366px) {
+    .main-our-team {
+        flex-direction: column;
+        margin-left: 10px;
+        width: 95%;
+    }
+
+    .main-our-team .our-team {
+        width: 82%;
+    }
+
+    .main-our-team .info-images .side-sec-head {
+        height: 28px;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .main-our-team .our-team .img-info-about-ceo {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .main-our-team .our-team .ceo-img {
+        text-align: center;
+    }
+
 }
