@@ -79,6 +79,7 @@
     border-bottom: 2px solid #207daf;
     box-sizing: border-box;
     height: 28px;
+    white-space: nowrap;
 }
 
 .info-images .side-sec-head .heading{

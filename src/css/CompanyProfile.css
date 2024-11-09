@@ -88,3 +88,22 @@
 }
 
 
+@media only screen and (max-width: 1366px) {
+    .company-profile-main {
+        flex-direction: column;
+        margin-left: 10px;
+    }
+
+    .company-profile-main .main-profile{
+        width: 95%;
+    }
+
+    .info-images {
+        width: 70%;
+    }
+
+    .company-profile-main .main-profile .poster-img img{
+        width: 100%;
+        height: auto;
+    }
+}
