@@ -24,5 +24,6 @@
 @media screen and (max-width:720px) {
     .client-list-main{
         display: block;
+        text-align: center;
     }
 }

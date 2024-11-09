@@ -77,6 +77,11 @@
 }
 
 @media only screen and (max-width: 1366px) {
+    .main{
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+
     .main .sub-main{
         width: 95%;
         /* margin-left: 10px; */
@@ -84,8 +89,5 @@
 
     .main .sub-main .sub-main-img img{
         width: 100%;
-    }
-    .main{
-        flex-direction: column;
     }
 }

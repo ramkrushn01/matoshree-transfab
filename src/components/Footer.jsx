@@ -1,7 +1,12 @@
 import React from "react";
 import "../css/Footer.css";
+import { Link } from 'react-router-dom';
+
 
 export default function Footer() {
+    const goToTop = ()=>{
+        window.scrollTo(0,0);
+    }
     return (
         <div className="main-footer">
             <div className="footer-upper">
@@ -15,13 +20,13 @@ export default function Footer() {
                     <h2 className="footer-upper-sec-head">Quick Links</h2>
                     <div className="footer-upper-content">
                         <ul>
-                            <li>Company Profile</li>
-                            <li>Vision & Mission</li>
-                            <li>Management Team</li>
-                            <li>Infrastructure</li>
-                            <li>Gallery</li>
-                            <li>Career</li>
-                            <li>Clients</li>
+                            <li> <Link to="/company-profile/" onClick={goToTop}>Company Profile</Link></li>
+                            <li> <Link to="/company-profile/#vision-mission" onClick={goToTop}> Vision & Mission </Link> </li>
+                            <li> <Link to="/our-team/" onClick={goToTop}> Management Team </Link> </li>
+                            <li> <Link to="/infrastructure-facilities/" onClick={goToTop}> Infrastructure </Link> </li>
+                            <li> <Link to="#" onClick={goToTop}> Gallery </Link> </li>
+                            <li> <Link to="/products/" onClick={goToTop}> Products </Link> </li>
+                            <li> <Link to="/clients/" onClick={goToTop}> Clients </Link> </li>
                         </ul>
                     </div>
                 </div>

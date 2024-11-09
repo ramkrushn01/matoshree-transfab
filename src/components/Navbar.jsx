@@ -3,7 +3,6 @@ import { IoIosArrowDown } from "react-icons/io";
 import { Link } from 'react-router-dom';
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RxCross2 } from "react-icons/rx";
-import { WiSnow } from 'react-icons/wi';
 
 export default function Navbar() {
   const [navState, setNavState] = useState(false);

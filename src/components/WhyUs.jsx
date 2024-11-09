@@ -2,7 +2,6 @@ import React from "react";
 import "../css/common/mainpages.css";
 import Sidebar from "./Sidebar";
 import { FaCalendar } from "react-icons/fa";
-import { RiDoubleQuotesL } from "react-icons/ri";
 
 export default function WhyUs() {
     return (
