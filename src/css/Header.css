@@ -47,3 +47,42 @@
 .main-header .contact-info .color-blue{
     color: #207daf;
 }
+
+.show-tab-mobile{
+    display: none;
+    white-space: nowrap;
+}
+
+@media only screen and (max-width: 960px) {
+    .main-header{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .main-header .main-logo{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main-header .contact-info{
+        width: 97%;
+        align-items: self-end;
+    }
+
+    .main-header .contact-info .sec-number{
+        margin-left: 0px;
+    }
+
+    .hide-tab-mobile{
+        display: none;
+    }
+
+    .show-tab-mobile{
+        display: inline;
+    }
+
+    .main-header .contact-info h3{
+        
+    }
+
+}
