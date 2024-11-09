@@ -63,7 +63,7 @@
 }
 
 .hamburger{
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 14px;
     color: white;
     margin-left: 22px;
@@ -93,6 +93,7 @@
 
     .show-in-tablet-mobile{
         display: block;
+        margin-top: 10px;
     }
 }
 
