@@ -26,7 +26,7 @@ export default function InfrastructureFacility() {
                             <span className="color-red">
                                 MATOSHREE TRANSFAB
                             </span>{" "}
-                            INDUSTRIES PVT. LTD,
+                            INDUSTRIES,
                         </b>{" "}
                         is a leading Manufacturer of Power & Distribution
                         Transformers. The company is registered with SSI and has
@@ -46,13 +46,13 @@ export default function InfrastructureFacility() {
                             Infrastructure & Facility
                         </div>
                         Ours is a Well established <b>SSI Unit </b> having our
-                        own setup with regular workforce of 27 persons enjoying
+                        own setup with regular workforce of 22 persons enjoying
                         all the benefits including E.S.I., P.F. bonus etc. Our
-                        Unit was established in 1984.
+                        Unit was established in 2022.
                         <div className="sub-head">Our Setup</div>
                         <b>Plot Area:</b> 10000 S.FT <b>Office Area: </b> 800
                         S.FT <br />
-                        <b>Shed Area:</b> 4000 S.FT <b>Total Power:</b> 30HP
+                        <b>Shed Area:</b> 5000 S.FT <b>Total Power:</b> 30HP
                         <div className="sub-info-content-quat">
                             <p>
                         <RiDoubleQuotesL className="quote" />
@@ -67,7 +67,7 @@ export default function InfrastructureFacility() {
                             </h4>
                             <br />
                             <ul>
-                                <li>EOT crane 10 ton</li>
+                                <li>EOT crane 5 ton</li>
                                 <li>
                                     Semi automatic winding machines – 2nos hv &
                                     2nos lv

@@ -21,22 +21,22 @@ export default function Home() {
                 <div className="signal-image">
                     <HomeImages
                         ImagePath={"Images/Line-Trans.jpeg"}
-                        ImageName={"Matoshree Transfab and company  "}
+                        ImageName={"Matoshree Transfab"}
                         CaptureDate={"August 21, 2022"}
                     />
                     <HomeImages
                         ImagePath={"Images/Trans-Coils.jpeg"}
-                        ImageName={"Matoshree Transfab and company  "}
+                        ImageName={"Matoshree Transfab"}
                         CaptureDate={"August 21, 2022"}
                     />
                     <HomeImages
                         ImagePath={"Images/Brown-Trans.jpeg"}
-                        ImageName={"Matoshree Transfab and company  "}
+                        ImageName={"Matoshree Transfab"}
                         CaptureDate={"August 21, 2022"}
                     />
                     <HomeImages
-                        ImagePath={"Images/Trans-openwell.jpeg"}
-                        ImageName={"Matoshree Transfab and company  "}
+                        ImagePath={"Images/infrastructure.jpg"}
+                        ImageName={"Matoshree Transfab"}
                         CaptureDate={"August 21, 2022"}
                     />
                 </div>
@@ -49,8 +49,8 @@ export default function Home() {
                         <span className="color-red"> Matoshree Transfab</span>
                     </h1>
                     <div className="info-content">
-                        <span className="color-red">Matoshree Transfab</span>
-                        INDUSTRIES PVT. LTD, Established in 2022, is a leading
+                        <span className="color-red">Matoshree Transfab{" "}</span>
+                        INDUSTRIES, Established in 2022, is a leading
                         <span className="color-blue">
                             {" "}
                             Manufacturer of Power & Distribution Transformers.

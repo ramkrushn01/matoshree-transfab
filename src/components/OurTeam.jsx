@@ -21,7 +21,7 @@ export default function OurTeam() {
                         <div className="ceo-info">
                             <p><b>Our Team</b> has started business in the year 2022, he is first generation entrepreneur.</p><br />
                             <p>Started business after passing out immediately, has started with a small Industrial shop and over the team.</p><br />
-                            <p>He is the vision to Increased business in two fold.</p>
+                            <p>We have the vision to Increased business in two fold.</p>
                         </div>
                     </div>
                   </div>

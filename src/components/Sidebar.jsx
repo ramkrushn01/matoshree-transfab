@@ -15,9 +15,9 @@ export default function Sidebar() {
                             <strong>
                                 <em>all over India</em>
                             </strong>{" "}
-                            since <strong>30+ Years. </strong>
+                            
                         </div>
-                        <img
+                        {/* <img
                             src="/Images/Trans-side-view.jpeg"
                             alt=""
                             className="sec-info-img"
@@ -26,7 +26,7 @@ export default function Sidebar() {
                             src="/Images/Trans-coil-bundle.jpeg"
                             alt=""
                             className="sec-info-img"
-                        />
+                        /> */}
                     </div>
                     <div className="side-sec">
                         <h3 className="side-sec-head">

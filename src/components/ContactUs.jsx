@@ -26,7 +26,7 @@ export default function ContactUs() {
                     </div>
                     <div className="contact">
                         <br />
-                        Contact Us: Mobile: <a href="tel:+918335949494">+91 83359 49494</a>, <a href="tel:+918600115570">+91 86001 15570</a> <br />
+                        Contact Us: Mobile: <a href="tel:+918335949494">+91 8335 949494</a>, <a href="tel:+918600115570">+91 86001 15570</a> <br />
                         Email: <a href="mailto:matoshree.transfab@gmail.com">matoshree.transfab@gmail.com</a>
                     </div>
                 </div>

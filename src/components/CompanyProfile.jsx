@@ -23,11 +23,11 @@ export default function CompanyProfile() {
               <div className="profile-info">
                   <div className="profile-info-head">Overview:</div>
                   <div className="profile-info-content">
-                      Established in 2021{" "}
+                      Established in 2022{" "}
                       <span className="color-red">
                           <b>MATOSHREE TRANSFAB</b>
                       </span>{" "}
-                      INDUSTRIES PVT. LTD, is a leading{" "}
+                      INDUSTRIES, is a leading{" "}
                       <span className="color-blue">
                           {" "}
                           <b>
@@ -100,16 +100,16 @@ export default function CompanyProfile() {
                   <div className="head">Infrastructure & Facility</div>
                   <div className="profile-info-content">
                       Ours is a Well established SSI Unit having our own setup
-                      with regular workforce of 27 persons enjoying all the
+                      with regular workforce of 22 persons enjoying all the
                       benefits including E.S.I., P.F. bonus etc. Our Unit was
-                      established in 1984.
+                      established in 2022.
                   </div>
               </div>
               <div className="our-setup profile-info">
                   <div className="head">Our Setup</div>
                   <div className="profile-info-content">
                       <b>Plot Area:</b> 10000 S.FT Office Area: 800 S.FT <br />
-                      <b>Shed Area:</b> 4000 S.FT Total Power: 30HP
+                      <b>Shed Area:</b> 5000 S.FT Total Power: 30HP
                   </div>
               </div>
               <div className="why-us profile-info">
@@ -122,13 +122,13 @@ export default function CompanyProfile() {
                           </li>
                           <li>
                               <span className="green-tick"></span>PAN India
-                              presence since last 30+ Years
+                              presence since 2022.
                           </li>
-                          <li>
+                          {/* <li>
                               <span className="green-tick"></span>Products life
-                              more than 30+ Years - Our transformers are working
+                              more than  - Our transformers are working
                               properly in field from last 30+ years.
-                          </li>
+                          </li> */}
                           <li>
                               <span className="green-tick"></span>Strong Sales
                               Support <br />
