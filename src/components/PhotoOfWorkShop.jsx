@@ -17,7 +17,7 @@ export default function PhotoOfWorkShop() {
     <div className="grid-gallery">
     {imageNames.map((img, index) => (
       <div className="grid-item" key={index}>
-        <img src={`/Images1/${img}`} alt={`Work ${index + 1}`} />
+        <img src={`/Images/${img}`} alt={`Work ${index + 1}`} />
       </div>
     ))}
   </div>

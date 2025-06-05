@@ -10,7 +10,7 @@ export default function CompanyProfile() {
           <div className="main-profile">
               <div className="poster-img">
                   <img
-                      src="/Images1/CompanyProfile.jfif"
+                      src="/Images/CompanyProfile.jfif"
                       alt="Company Profile"
                   />
               </div>
