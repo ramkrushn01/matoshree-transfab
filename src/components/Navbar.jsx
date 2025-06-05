@@ -81,7 +81,7 @@ export default function Navbar() {
             <li className="nav-item">Gallery <IoIosArrowDown /> 
             <ul className="nav-sub-leader">
               <li className="nav-sub-leader-item">Photo's of Product Internal & Outer</li>
-              <li className="nav-sub-leader-item">Photo's of Workshop</li>
+              <Link onClick={closeHamburger} to="/photo-of-workshop/"> <li className="nav-sub-leader-item">Photo's of Workshop</li> </Link>
               <li className="nav-sub-leader-item">Photo's of Testing Machine</li>
               <li className="nav-sub-leader-item">Photo's of Team</li>
               <li className="nav-sub-leader-item">Photo's of Office</li>

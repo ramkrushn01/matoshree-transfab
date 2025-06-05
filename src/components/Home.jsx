@@ -9,7 +9,7 @@ export default function Home() {
             <div className="upper-photo-sec">
                 <div className="main-image">
                     <HomeImages
-                        ImagePath={"Images/slider-03-22.jpg"}
+                        ImagePath={"Images1/home.jfif"}
                         ImageName={
                             "Matoshree Transfab"
                         }
@@ -30,7 +30,7 @@ export default function Home() {
                         CaptureDate={"August 21, 2022"}
                     />
                     <HomeImages
-                        ImagePath={"Images/Brown-Trans.jpeg"}
+                        ImagePath={"Images1/3rd.jfif"}
                         ImageName={"Matoshree Transfab"}
                         CaptureDate={"August 21, 2022"}
                     />
